@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Document</title>
-        <link rel="stylesheet" href="css/video-js.css">
-        <script src="js/video.min.js"></script>
+        <!--<link rel="stylesheet" href="css/video-js.css">-->
+        <!--<script src="js/video.min.js"></script>-->
     </head>
     <body>
         <video width="100%" height="240" autoplay id="video">
@@ -21,11 +21,9 @@
             <!--}, false);-->
         <!--</script>-->
         <script type="text/javascript">
-            var myPlayer = videojs('example_video_1');
-            videojs("example_video_1").ready(function(){
-                var myPlayer = this;
-                myPlayer.play();
-            });
+            document.getElementById('video').addEventListener('click',function(){
+                document.getElementById('video').autoPlay();
+            },false);
         </script>
     </body>
 </html>
