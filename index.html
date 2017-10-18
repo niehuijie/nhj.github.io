@@ -9,7 +9,7 @@
         <script src="js/video.min.js"></script>
     </head>
     <body>
-        <video width="100%" height="240" autoplay id="video">
+        <video width="100%" height="240" autoplay="autoplay" id="video">
             <source src="video/hah.mp4" type='video/mp4;'>
             你的浏览器不支持video标签。
          </video>
@@ -24,23 +24,10 @@
 //            document.getElementById('video').addEventListener('click',function(){
 //                document.getElementById('video').autoPlay();
 //            },false);
-            document.addEventListener("WeixinJSBridgeReady", function onBridgeReady() {
-                if (ua.indexOf("iPhone") > 0) {
-                    setTimeout(function(){
-                        $("#video")[0].play();
-                    },3000);
-                }
-                else if (ua.indexOf("Android") > 0) {
-                    var vi =  $("#video");
-                    vi[0].play();
-                    if ( vi[0].currentTime){
-                        vi[0].pause();
-                        //这里的定时器你可以不需要，也可以变成你需要的事件，而且也不一定在这个位置，主要是里面的play
-                        setTimeout(function(){
-                            vi[0].play();
-                        },3000)
-                    }
-                }
+            var myPlayer = videojs('video');
+            videojs("video").ready(function(){
+                var myPlayer = this;
+                myPlayer.play();
             });
         </script>
     </body>

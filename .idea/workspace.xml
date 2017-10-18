@@ -20,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="47" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="8" selection-end-column="47" />
+            <state relative-caret-position="513">
+              <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -119,7 +119,7 @@
       <workItem from="1508227373829" duration="3018000" />
       <workItem from="1508289223253" duration="1078000" />
       <workItem from="1508291037602" duration="25000" />
-      <workItem from="1508291072234" duration="379000" />
+      <workItem from="1508291072234" duration="782000" />
     </task>
     <task id="LOCAL-00001" summary="视频demo">
       <created>1508227896037</created>
@@ -191,11 +191,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508291262366</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="视频demo">
+      <created>1508291460964</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1508291460964</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4515000" />
+    <option name="totallyTimeSpent" value="4918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -261,10 +268,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/media.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="47" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="8" selection-end-column="47" />
+        <state relative-caret-position="513">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding />
         </state>
       </provider>
